@@ -216,3 +216,5 @@ data/
 *.ckpt
 # Logs
 *.log
+
+/models
