@@ -1,6 +1,6 @@
 from utility.loader import cnn_loader
 
-model, transformer, class_names, device = cnn_loader("mood_cnn.pth","data/test")
+model, transformer, class_names, device = cnn_loader("models/mood_cnn.pth","data/test")
 
 from utility.camera import cv2ModelRunner
 
