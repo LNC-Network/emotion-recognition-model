@@ -42,7 +42,7 @@ def cnn_loader(model_path: str, data_dir: str = "data/train"):
 
     # Define image transform
     transform = transforms.Compose([
-        transforms.Resize((128, 128)),
+        transforms.Resize((48, 48)),
         transforms.ToTensor(),
     ])
 
